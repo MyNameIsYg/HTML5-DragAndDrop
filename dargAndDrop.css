@@ -1,0 +1,23 @@
+td{
+    text-align: center;
+    border: 0.5px;
+    border-style: double;
+    border-color: rgb(231, 147, 228);
+    height: 200px;
+    width: 266.5px;
+}
+img{
+    width: 266.5px;
+    height: 200px;
+}
+*{
+    text-align: center;
+    background-color: grey;
+    font-size: 150px;
+    color: rgb(232, 110, 227);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif;
+}
+table{
+    text-align: center;
+    margin:auto;
+}

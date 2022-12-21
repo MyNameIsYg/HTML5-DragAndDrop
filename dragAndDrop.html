@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag</title>
+  <link rel="stylesheet" href="dargAndDrop.css">
+</head>
+
+<body>
+
+  <h1>Puzzel</h1>
+
+  <table>
+    <tr>
+      <td data-td="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+      <td data-td="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+      <td data-td="td3" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+    </tr>
+    <tr>
+      <td data-td="td4" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+      <td data-td="td5" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+      <td data-td="td6" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+    </tr>
+    <tr>
+      <td data-td="td7" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+      <td data-td="td8" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+      <td data-td="td9" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+    </tr>
+  </table>
+
+  <img src="img\img3.jpg" alt="img3" draggable="true" ondragstart="drag(event)" id="td3">
+  <img src="img\img6.jpg" alt="img6" draggable="true" ondragstart="drag(event)" id="td6">
+  <img src="img\img2.jpg" alt="img2" draggable="true" ondragstart="drag(event)" id="td2">
+  <img src="img\img9.jpg" alt="img9" draggable="true" ondragstart="drag(event)" id="td9">
+  <img src="img\img8.jpg" alt="img8" draggable="true" ondragstart="drag(event)" id="td8">
+  <img src="img\img1.jpg" alt="img1" draggable="true" ondragstart="drag(event)" id="td1">
+  <img src="img\img5.jpg" alt="img5" draggable="true" ondragstart="drag(event)" id="td5">
+  <img src="img\img7.jpg" alt="img7" draggable="true" ondragstart="drag(event)" id="td7">
+  <img src="img\img4.jpg" alt="img4" draggable="true" ondragstart="drag(event)" id="td4">
+
+  
+
+  <audio id="audio1">
+    <source src="01 רצועה 1.mp3" type="audio/mp3">
+    <source src="01 רצועה 1.mpeg" type="audio/mpeg">
+  </audio>
+
+  <script src="dragAndDrop.js"></script>
+</body>
+
+</html>
